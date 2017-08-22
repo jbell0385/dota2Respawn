@@ -1,24 +1,33 @@
 {
-  "name": "dota2respawn",
-  "version": "1.0.0",
-  "description": "App for respawn timers in Dota2",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jbell0385/dota2Respawn.git"
-  },
-  "keywords": [
-    "dota2",
-    "respawn",
-    "timers"
-  ],
-  "author": "Jeremy Bell and Michelle Huang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jbell0385/dota2Respawn/issues"
-  },
-  "homepage": "https://github.com/jbell0385/dota2Respawn#readme"
+    "name": "dota2Respawn",
+    "version": "1.0.0",
+    "description": "App for respawn timers in Dota2",
+    "author": "dota2Respawn",
+    "homepage": "https://github.com/jbell0385/dota2Respawn",
+    "contributors": [
+        {
+            "name": "Jeremy Bell"
+        },
+        {
+            "name": "Michelle Huang",
+            "email": "huangmhuang@gmail.com"
+        }
+    ],
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jbell0385/dota2Respawn.git"
+    },
+    "keywords": [
+        "dota2",
+        "respawn",
+        "timers"
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jbell0385/dota2Respawn/issues"
+    }
 }
