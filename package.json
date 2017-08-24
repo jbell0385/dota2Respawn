@@ -30,5 +30,8 @@
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/jbell0385/dota2Respawn/issues"
+    },
+    "dependencies": {
+        "vue": "^2.4.2"
     }
 }
