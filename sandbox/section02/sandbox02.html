@@ -18,10 +18,10 @@
     <div class="container-fluid" id="app">
       <div class="row">
         <div class="col">
-          <h1 v-once>{{title}}</h1>
-          <p>{{sayHello()}} - <a v-bind:href="link">Google</a></p>
-          <hr>
-          <p v-html="finishedLink"></p>
+
+          <input type = "text" v-model="name"/>
+          <p>{{name}}</p>
+
         </div>
       </div>
     </div>
