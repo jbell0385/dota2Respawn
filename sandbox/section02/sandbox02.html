@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,24 +12,42 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-  </head>
-  <body>
+</head>
+
+<body>
 
 
     <div class="container-fluid" id="app">
-      <div class="row">
-        <div class="col">
+        <div class="row">
+            <div class="col">
 
-          <input type = "text" v-model="name"/>
-          <p>{{name}}</p>
+                <div id="exercise">
+                    <div>
+                        <p>Current Value: {{value}}</p>
+                        <button @click="value += 5">Add 5 </button>
+                        <button @click="value += 1">Add 1</button>
+                        <p>
+                            {{result}}
+                        </p>
+                    </div>
 
+                    <div>
+                        <input type="text" />
+                        <p>
+                            {{value}}
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
-      </div>
     </div>
 
-    <script src = "..\..\node_modules\vue\dist\vue.js"></script>
-    <script src = "section02.js"></script>
+    <script src="..\..\node_modules\vue\dist\vue.js"></script>
+    <script src="section02.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
