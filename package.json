@@ -1,37 +1,22 @@
 {
-    "name": "dota2Respawn",
+    "name": "dotatimer",
     "version": "1.0.0",
-    "description": "App for respawn timers in Dota2",
-    "author": "dota2Respawn",
-    "homepage": "https://github.com/jbell0385/dota2Respawn",
-    "contributors": [
-        {
-            "name": "Jeremy Bell",
-            "email": "jbell0385@gmail.com"
-        },
-        {
-            "name": "Michelle Huang",
-            "email": "huangmhuang@gmail.com"
-        }
-    ],
-    "main": "index.js",
+    "description": "",
+    "main": "script.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "http-server --p=4000",
+        "styles": "node-sass --output-style compressed -o dist/ styles.scss",
+        "styles:watch": "npm run styles -- --watch",
+        "build": "npm-run-all --parallel styles:watch dev"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/jbell0385/dota2Respawn.git"
-    },
-    "keywords": [
-        "dota2",
-        "respawn",
-        "timers"
-    ],
+    "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/jbell0385/dota2Respawn/issues"
-    },
     "dependencies": {
-        "vue": "^2.4.2"
+        "concurrently": "^3.5.1",
+        "node-sass": "^4.7.2",
+        "npm-run-all": "^4.1.2",
+        "semantic-ui": "^2.2.14",
+        "vue": "^2.5.13"
     }
 }

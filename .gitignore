@@ -1,2 +1,6 @@
 # WebStorm & IntelliJ Files
 .idea/
+
+.gitignore
+node_modules
+semantic
